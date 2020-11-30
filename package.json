@@ -2,7 +2,7 @@
   "name": "yt-search",
   "version": "2.5.0",
   "description": "search youtube",
-  "main": "dist/yt-search.js",
+  "main": "dist/yt-search.min.js",
   "bin": {
     "yt-search": "bin/cli.js",
     "yt-search-video": "bin/mpv_video.sh",
@@ -10,7 +10,8 @@
   },
   "files": [
     "bin/**.*",
-    "dist/yt-search.min.js"
+    "dist/yt-search.min.js",
+    "dist/yt-search.js"
   ],
   "scripts": {
     "debug": "debug=1 node src/index.js --silent",
@@ -54,7 +55,7 @@
     "looks-same-plus": "0.0.2",
     "spacestandard": "~0.3.0",
     "tape": "~5.0.1",
-    "uglify-js": "~3.10.2",
+    "uglify-js": "~3.12.0",
     "wooster": "~0.5.0"
   }
 }
